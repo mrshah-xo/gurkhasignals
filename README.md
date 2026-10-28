@@ -26,9 +26,6 @@ Instead of presenting scientific data as isolated maps or charts, Gorkha Signals
 The project is being developed around NASA's 2026 challenge **“Be An Earth System Trend Detective!”**, which asks participants to work with Earth-system data and investigate patterns across weather, precipitation, land-surface, atmospheric, and related observations.
 
 ---
-## Dashboard protoype
-<div align="center">
-  <img src="assets/dashboard_prototype.png" alt="Dashboard" width="1000" />
 
 ## The Challenge
 
@@ -72,39 +69,6 @@ Present the supporting evidence through maps, timelines, graphs, and concise ana
 Allow the user to move from an initial signal to the underlying data rather than treating an automated summary as the final scientific conclusion.
 
 ---
-
-## Core Experience
-
-The planned interface follows a **mission-control / scientific investigation** model rather than a conventional dashboard.
-
-```text
-                         NASA / Partner Open Data
-                                  │
-                                  ▼
-                         Data Ingestion Layer
-                                  │
-                                  ▼
-                      Processing & Normalization
-                                  │
-                                  ▼
-                    Trend / Anomaly Detection
-                                  │
-                    ┌─────────────┼─────────────┐
-                    ▼             ▼             ▼
-                 Maps          Timelines      Charts
-                    │             │             │
-                    └─────────────┼─────────────┘
-                                  ▼
-                       Investigation Workspace
-                                  │
-                                  ▼
-                       Evidence-based Summary
-```
-
-The intended experience is to make the user feel less like they are browsing a dataset and more like they are **investigating a signal from the Earth system**.
-
----
-
 ## Planned Features
 
 ### Earth-system Explorer
@@ -164,51 +128,6 @@ The final implementation will document the exact datasets, variables, spatial/te
 
 ---
 
-## Technical Architecture
-
-```text
-┌───────────────────────────────────────────────────────────────┐
-│                         GORKHA SIGNALS                        │
-├───────────────────────────────────────────────────────────────┤
-│                                                               │
-│  Frontend                                                     │
-│  ┌─────────────────────────────────────────────────────────┐  │
-│  │ React / Next.js                                         │  │
-│  │ Maps • Charts • Investigation UI • Data Explorer       │  │
-│  └──────────────────────────┬──────────────────────────────┘  │
-│                             │                                 │
-│                             ▼                                 │
-│  Analysis Layer                                                │
-│  ┌─────────────────────────────────────────────────────────┐  │
-│  │ Python                                                  │  │
-│  │ Data processing • Statistics • Trend detection         │  │
-│  │ Anomaly detection • Scientific transformations        │  │
-│  └──────────────────────────┬──────────────────────────────┘  │
-│                             │                                 │
-│                             ▼                                 │
-│  Data Layer                                                    │
-│  ┌─────────────────────────────────────────────────────────┐  │
-│  │ NASA / Space Agency Partner open datasets              │  │
-│  │ APIs • Downloads • Processed scientific data           │  │
-│  └─────────────────────────────────────────────────────────┘  │
-│                                                               │
-└───────────────────────────────────────────────────────────────┘
-```
-
-### Planned technology stack
-
-| Layer | Technology | Purpose |
-|---|---|---|
-| Frontend | **TypeScript / React / Next.js** | Interactive scientific interface |
-| Analysis | **Python** | Data processing and statistical analysis |
-| Visualization | **Maps + interactive charts** | Spatial and temporal investigation |
-| Data | **NASA open data / APIs / downloads** | Scientific source data |
-| Development | **Git + GitHub** | Version control and collaboration |
-
-The exact libraries and services may evolve as the prototype is implemented.
-
----
-
 ## Why This Project
 
 NASA describes Space Apps as an opportunity for people around the world to use NASA and Space Agency Partner open data to create solutions to real-world challenges on Earth and in space. The 2026 event theme is **“The Next Frontier.”**
@@ -243,47 +162,6 @@ The project should demonstrate meaningful use of NASA data rather than using NAS
 
 ---
 
-## Project Status
-
-**Current stage: Prototype / In Development**
-
-### Roadmap
-
-- [x] Select the official NASA Space Apps 2026 challenge
-- [x] Define the Earth-system investigation concept
-- [x] Establish the product direction and architecture
-- [ ] Finalize datasets and variables
-- [ ] Implement data ingestion
-- [ ] Implement trend and anomaly analysis
-- [ ] Build interactive investigation interface
-- [ ] Add evidence visualization
-- [ ] Validate results against source data
-- [ ] Prepare demonstration workflow
-- [ ] Complete NASA Space Apps submission materials
-
----
-
-## Repository Structure
-
-The repository will evolve as the prototype is built. The intended organization is approximately:
-
-```text
-.
-├── assets/
-│   └── Gorkha.Signals.png
-├── frontend/
-├── analysis/
-├── data/
-├── docs/
-├── notebooks/
-├── tests/
-└── README.md
-```
-
-Large datasets should not be committed directly unless their licensing, size, and repository requirements make that appropriate. Dataset acquisition and preprocessing instructions will be documented separately.
-
----
-
 ## Team
 
 ### Gorkha Signals
@@ -293,7 +171,7 @@ A three-member student team from Nepal building a NASA-data-driven Earth-system 
 | Member | Focus |
 |---|---|
 | **Ayush** | AI/software, Raspberry Pi & robotics, web/product integration |
-| **Supreme Ojha** | C++, Python, websites and applications |
+| **Suprim Ojha** | C++, Python, websites and applications |
 | **Yugansu Rijal** | Hardware/maker systems and software |
 
 The team combines software development, data/AI experimentation, web development, and hands-on hardware experience.
@@ -312,19 +190,8 @@ The project direction is informed by the official NASA Space Apps Challenge reso
 
 NASA's official Space Apps GitHub repository describes the event as a hackathon where coders, scientists, designers, storytellers, makers, technologists, and innovators use open NASA and Space Agency Partner data to address challenges on Earth and in space.
 
----
-
-## Disclaimer
-
-**Gorkha Signals is an independent student project created for the NASA Space Apps Challenge. It is not an official NASA product, application, or endorsement.**
-
-NASA datasets and services remain subject to their respective terms, attribution requirements, and data-use policies. The project will identify the sources and processing methods used for its analyses.
-
----
 
 <div align="center">
-
-### Built in Nepal 🇳🇵 for NASA Space Apps 2026 🚀
 
 **Observe the signal. Investigate the evidence. Understand our changing Earth.**
 
