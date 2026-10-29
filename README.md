@@ -16,7 +16,7 @@
 ---
 
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/613852eb-527e-4623-858a-706c20d5773a" width="100%" autoplay loop muted playsinline></video>
+  <img src="assets/gurkha.gif" alt="Gurkha Animation" width="720">
 </p>
 
 ## Mission
