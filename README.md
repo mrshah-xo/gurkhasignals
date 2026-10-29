@@ -15,6 +15,10 @@
 
 ---
 
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/613852eb-527e-4623-858a-706c20d5773a" width="100%" autoplay loop muted playsinline></video>
+</p>
+
 ## Mission
 
 **Gorkha Signals** is an Earth-system investigation platform built for the **2026 NASA Space Apps Challenge**. It is designed to help people explore NASA Earth-observation and Earth-system datasets, identify meaningful trends and anomalies, compare environmental variables, and understand the evidence behind those changes.
