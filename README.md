@@ -190,6 +190,10 @@ A three-member student team from Nepal building a NASA-data-driven Earth-system 
 The team combines software development, data/AI experimentation, web development, and hands-on hardware experience.
 
 ---
+<p align="center">
+  <img src="assets/certificate_mrshah.xo_2026__n_a_s_a__space__apps__challenge.jpeg" alt="certificate" width="720">
+</p>
+---
 
 ## Research & References
 
