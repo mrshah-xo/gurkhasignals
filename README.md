@@ -23,9 +23,9 @@
 
 **Gorkha Signals** is an Earth-system investigation platform built for the **2026 NASA Space Apps Challenge**. It is designed to help people explore NASA Earth-observation and Earth-system datasets, identify meaningful trends and anomalies, compare environmental variables, and understand the evidence behind those changes.
 
-Preview Link: earthsignals-eta.vercel.app
-Preview Link: earth-phi-three.vercel.app
-Preview Link: gurkha-p1.vercel.app
+Preview Link: earthsignals-eta.vercel.app <br>
+Preview Link: earth-phi-three.vercel.app <br>
+Preview Link: gurkha-p1.vercel.app <br>
 Preview Link(NASA SPACE APP): safefieldnp.vercel.app
 
 Instead of presenting scientific data as isolated maps or charts, Gorkha Signals aims to turn the data into an **investigation workflow**:
